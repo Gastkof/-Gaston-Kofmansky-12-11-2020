@@ -1,11 +1,14 @@
-#Filter
-     <?php
+<?php
 
-     function  filterNumbersFromArray (array &$arr)  :  void
-     {
-            //Write the code that goes here
-     }
- 
-     $arr = [1,  ‘a’ ,  ‘b’ ,  2]
-     filterNumbersFromArray ($arr) ;
-      print_r ( array_values ( $arr ) ) ;
+
+function findUniqueNumbers (array $numbers) : array
+{
+$arr = array();
+array_push($arr,array_unique($numbers));
+return array_unique($numbers);
+
+}
+
+print_r( findUniqueNumbers( [1, 2, 1, 3] ) ) ;
+?> 
+
