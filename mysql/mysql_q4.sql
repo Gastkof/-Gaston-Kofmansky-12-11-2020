@@ -1,4 +1,10 @@
-TABLE companies
-   id INTEGER PRIMARY KEY,
-   name VARCHAR (30) NOT NULL,
-   country VARCHAR (30) NOT NULL
+TABLE rectangles
+id INTEGER NOT NULL PRIMARY KEY,
+width INTEGER NOT NULL,
+height INTEGER NOT NULL
+   
+   
+   Select width*height as 'area',count(*) as 'numberOfrectangles'
+   from  rectangles 
+   group by area
+   
