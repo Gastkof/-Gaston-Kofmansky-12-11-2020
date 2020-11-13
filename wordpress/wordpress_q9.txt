@@ -1,0 +1,2 @@
+The wp_enqueue_script function should be used to tell WordPress to load
+the script immediately into the <head> element or before </body>.
