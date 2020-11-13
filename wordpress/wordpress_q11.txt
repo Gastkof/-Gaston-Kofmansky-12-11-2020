@@ -1,0 +1,3 @@
+to enalbe debug in wordPress wen need tp change this:
+define( 'WP_DEBUG', true );
+wp-config.php  file on development copies of WordPress.
