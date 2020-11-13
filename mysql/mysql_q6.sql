@@ -3,6 +3,8 @@ id INTEGER NOT NULL PRIMARY KEY,
 name INTEGER NOT NULL,
 price INTEGER NOT NULL
 
-
-select
-from products  
+select fname,min(price)
+from products
+where price in (select min(price)
+				from products)
+group by fname
