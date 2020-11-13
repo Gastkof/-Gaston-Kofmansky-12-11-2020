@@ -1,0 +1,5 @@
+In the root directory of the theme. 
+
+Inside the folder named css, which is located inside the themes folder.
+
+Inside the directory named wp-includes/css.
