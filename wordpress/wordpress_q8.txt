@@ -1,0 +1,3 @@
+Inside the file wp-content/plugins/testdome.php.
+In the pages section of the WordPress admin dashboard.
+Inside the file wp-content/plugins/index.php.
