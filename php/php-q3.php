@@ -3,9 +3,12 @@
 
      function  filterNumbersFromArray (array &$arr)  :  void
      {
-            //Write the code that goes here
+
+    $arr=array_filter($arr, 'is_numeric');
+
      }
  
-     $arr = [1,  ‘a’ ,  ‘b’ ,  2]
+     $arr = [1,  ‘a’ ,  ‘b’ ,  2];
      filterNumbersFromArray ($arr) ;
       print_r ( array_values ( $arr ) ) ;
+?>
