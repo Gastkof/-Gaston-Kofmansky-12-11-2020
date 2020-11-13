@@ -1,0 +1,9 @@
+there is few ways to change the homepage URL:
+1.  from the  Admin Area
+2.  by change this methods :
+    update_option( 'siteurl', 'https://example.com' );
+    update_option( 'home', 'https://example.com' );
+    on  /wp-content/themes/your-theme-folder/. the file functions.php
+    
+ 3. from the Database Using phpMyAdmin
+ 
