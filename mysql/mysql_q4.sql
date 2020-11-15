@@ -4,7 +4,6 @@ width INTEGER NOT NULL,
 height INTEGER NOT NULL
    
    
-   Select width*height as 'area',count(*) as 'numberOfrectangles'
+  Select width*height as area  ,count(*) as 'numberOfrectangles'
    from  rectangles 
-   group by area
-   
+   group by  width*height
